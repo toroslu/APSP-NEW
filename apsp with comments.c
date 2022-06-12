@@ -1,24 +1,24 @@
 /*************************************************************************************/
-/** This program contains the followings:                                          **/
-/**  1) Random graph generator                                                            **/
-/**  2) Dijkstra's alg. for APSP problem                                                **/
-/**  3) Johnson's alg. for APSP problem                                              **/
-/**  4) Floyd-Warshall alg. for APSP problem                                      **/
-/**  5) Improved FW alg. for APSP problem                                         **/
-/**  The same graphs are used as input to all algs.                          **/
-/**  NO INPUT                                                                                             **/
-/** The followings can be changed                                                      **/
-/**  #define MAXN 4097   // max number of vertices                          **/
-/** #define INF 9999        // infinite                                                          **/ 
-/**  N=1024;  // number of vertices in the graph                                 **/
-/**  OUTPUT: Execution times & # operations                                   **/
-/** Algorithms are implemented to satisfy complexities                  **/
-/** Implementation structure is not optimized                                   **/
-/** Dijkstra's alg has 2 implementations (one for Johnson's alg) **/
-/** Memory usage is not optimized                                                      **/
-/** Different adj matrices are allocated for different algs                **/
-/**                                                                                                                 **/
-/** Written by: Ismail Hakki Toroslu  (June 2022)                              **/
+/** This program contains the followings:                                           **/
+/**  1) Random graph generator                                                      **/
+/**  2) Dijkstra's alg. for APSP problem                                            **/
+/**  3) Johnson's alg. for APSP problem                                             **/
+/**  4) Floyd-Warshall alg. for APSP problem                                        **/
+/**  5) Improved FW alg. for APSP problem                                           **/
+/**  The same graphs are used as input to all algs.                                 **/
+/**  NO INPUT                                                                       **/
+/** The followings can be changed                                                   **/
+/**  #define MAXN 4097   // max number of vertices                                  **/
+/** #define INF 9999        // infinite                                             **/ 
+/**  N=1024;  // number of vertices in the graph                                    **/
+/**  OUTPUT: Execution times & # operations                                         **/
+/** Algorithms are implemented to satisfy complexities                              **/
+/** Implementation structure is not optimized                                       **/
+/** Dijkstra's alg has 2 implementations (one for Johnson's alg)                    **/
+/** Memory usage is not optimized                                                   **/
+/** Different adj matrices are allocated for different algs                         **/
+/**                                                                                 **/
+/** Written by: Ismail Hakki Toroslu  (June 2022)                                   **/
 /*************************************************************************************/
 
 #include <time.h>
